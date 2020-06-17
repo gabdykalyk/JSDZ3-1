@@ -1,0 +1,42 @@
+.navbar__collor {
+    background-color: #2e9fd9;
+}
+
+a {
+    color: #fff !important;
+}
+
+.nav-link {
+    padding: 15px;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #126d9a;
+}
+
+.dropdown-menu {
+    background-color: #373737;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    min-width: 250px;
+}
+
+.dropdown-item {
+    padding: 10px;
+}
+
+.dropdown-item:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-item:last-child {
+    border-bottom: 4px solid #2ca4d9;
+}
+
+.dropdown-item:hover {
+    background-color: #126d9a;
+}
